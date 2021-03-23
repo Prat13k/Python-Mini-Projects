@@ -1,0 +1,91 @@
+import random                                   #To_Randomly_Choose_Item
+import time                                     #To_Know_Exact_Time
+
+#Introductory_Code
+print("Welcome To Hangman")
+name = input("Enter Your Name Gamer ")
+print("Hello " + name)
+print("Best of luck")
+time.sleep(2)
+print("And The Game Begins")
+time.sleep(2)
+
+def main():
+    global count
+    global display
+    global word
+    global Already_Guessed
+    global length
+    global Play_Game
+    words_to_guess = ["January","March","Hisponic","Tradition","Century","Seldon Cooper","Friends","Irresistable"]
+    word = random.choice(words_to_guess)
+    length = len(word)
+    count = 0
+    display = '_' * length
+    Already_Guessed = []
+    Play_Game = ""
+    
+def play_loop():
+    global Play_Game
+    Play_Game = input("Do you wanna play again ? y = yes , n = no \n")
+    while Play_Game not in ("y","n","Y","N"):
+        Play_Game = input("Do you wanna play again ? y = yes , n = no \n")
+    if (Play_Game == "y" or "Y"):
+        main()
+    else: 
+        print("Thanks for Playing !,Dhanyawaad")
+        exit()
+
+def Hangman():
+    global count
+    global display
+    global word
+    global Already_Guessed
+    global Play_Game
+    limit = 5
+    guess = input("Hangman Gives you "+ display +"you said ")
+    guess = guess.strip()
+    if (len(guess.strip()) == 0 or len(guess.strip()) >=2 or guess <= "9"):
+        print("Invalid Input")
+        Hangman()
+    elif guess in word:
+        Already_Guessed.extend([guess])
+        index = word.find(guess)
+        word = word[:index] + "_" + word[index+1:]
+        display = display[:index] + guess + display[index+1:]
+        print(display + "\n")
+    elif guess in Already_Guessed:
+        print("Try another Letter")
+    else: 
+        count =+ 1
+        if (count == 1):
+            time.sleep(1)
+            print("_____\n|\n|\n|\n|\n|\n|\n|\n__|__\n")
+            print("Wrong Guess" + str(limit - count) + "Guess Remaining\n")
+        elif(count == 2):
+            time.sleep(1)
+            print("_____\n|\n|\n|\n|\n|\n|\n|\n__|__\n")
+            print("Wrong Guess" + str(limit - count) + "Guess Remaining\n")
+        elif(count == 3):
+            time.sleep(1)
+            print("_____\n|\n|\n|\n|\n|\n|\n|\n__|__\n")
+            print("Wrong Guess" + str(limit - count) + "Guess Remaining\n")
+        elif(count == 4):
+            time.sleep(1)
+            print("_____ \n|\n|\n""|\n|\n|\n|\n|\n__|__\n")
+            print("Wrong Guess" + str(limit - count) + "Guess Remaining\n")   
+        elif(count == 5):
+            time.sleep(1)
+            print("_____ \n|\n|\n|\n|\n|\n|\n|\n__|__\n")
+            print("Wrong Guess" + str(limit - count) + "Guess Remaining\n")     
+            print("you are hanged baby !")
+            print("The Word was", Already_Guessed,Word)
+            play_loop()
+    if (word == "__" * length):
+        print("Congrats you have guessed the ans correctly")
+        play_loop()
+
+    elif (count!= limit):
+        Hangman()
+main()
+Hangman()
