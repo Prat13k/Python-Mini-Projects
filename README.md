@@ -1,2 +1,7 @@
-# Project-Hangman
-Hangman Game in Python
+# Python Projects
+
+This repository consists of several mini projects on python language.
+
+# Description
+
+Bagels: 
