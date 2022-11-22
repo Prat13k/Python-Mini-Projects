@@ -13,9 +13,6 @@ In this project we have written a python programme to determine maching birthday
 ###### Bouncing DVDS :
 In this project we have written a python programme to create a bouncing DVD animation
 
-###### Breast Cancer :
-In this project we have written a python programme to determine breast cancer using machine learning
-
 ###### Download Youtube Videos :
 In this project we have written a python programme to download youtube videos through youtube link
 
@@ -27,9 +24,6 @@ In this project we have written a python programme to create Emji Faces using py
 
 ###### Extracting Audio from Video Files :
 In this project we have written a python programme to Extract audio files from video files
-
-###### Face Recognition :
-In this project we have written a python programme to Recognize faces
 
 ###### Google Search with python :
 In this project we have written a python programme to perfrom google searches
@@ -48,9 +42,6 @@ In this project we have written a python programme to detect plagirism in any fi
 
 ###### QR Generetor:
 In this project we have written a python programme through which we can develop QR code
-
-###### Twitter Sentiment Analysis
-Twitter sentiment Analysis has been performed
 
 ###### URL Shortner
 In this project we used python library to shorten the URL.
