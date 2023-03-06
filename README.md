@@ -32,16 +32,16 @@ In this project i have written a python programme to perfrom google searches.
 In this project i have written a python programme of Hangman Game.
 
 ###### Image to PDF Converter :
-In this project i have written a python programme to Convert image file into PDF file
+In this project i have written a python programme to Convert image file into PDF file.
 
 ###### Language Translator :
-In this project i have written a python programme to translate from one language to another
+In this project i have written a python programme to translate from one language to another.
 
 ###### Plagirism Detector :
-In this project i have written a python programme to detect plagirism in any file
+In this project i have written a python programme to detect plagirism in any text or pdf file.
 
 ###### QR Generetor :
-In this project i have written a python programme through which we can develop QR code
+In this project i have written a python programme through which we can develop QR codes.
 
 ###### URL Shortner :
 In this project i used python to shorten the URL.
