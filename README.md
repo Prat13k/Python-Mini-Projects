@@ -5,7 +5,7 @@ This repository consists of several mini projects in python language.
 # Description
 
 ###### Bagels: 
-In this project i have written a python program to develop Bagels the game.
+In this project i have written a python program to develop The Game Bagels.
 
 ###### Birthdays :
 In this project i have written a python program to determine matching birthdays.
@@ -20,7 +20,7 @@ In this project i have written a python program to download youtube videos throu
 In this project i have written a python program to download instagram posts from desired instagram account.
 
 ###### Emoji Faces :
-In this project i have written a python program to create Emoji Faces using python.
+In this project i have written a python program to create emojis using python.
 
 ###### Extracting Audio from Video Files :
 In this project i have written a python program to Extract audio from video files.
