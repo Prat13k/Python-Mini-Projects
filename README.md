@@ -1,11 +1,11 @@
 # Python Projects
 
-This repository consists of several mini projects in python language.
+This repository consists of several mini projects coded in python language.
 
 # Description
 
 ###### Bagels: 
-In this project i have written a python program to develop The Game Bagels.
+In this project i have written a python program to develop The Game Bagels. In Bagels, a deductive logic game, you must guess a secret three-digit number based on clues. The game offers one of the following hints in response to your guess: "Pico" when your guess has a correct digit in the wrong place, "Fermi" when your guess has a correct digit in the correct place, and "Bagels" if your guess has no correct digits
 
 ###### Birthdays :
 In this project i have written a python program to determine matching birthdays.
