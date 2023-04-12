@@ -26,10 +26,10 @@ In this project i have written a python program to create emojis using python.
 In this project i have written a python program to Extract audio from video files.
 
 ###### Google Search with python :
-In this project i have written a python program to perfrom google searches.
+In this project i have written a python program to perfrom google searches through python. This programme helps the user to search through google and other web engines directly using python. 
 
 ###### Hangman : 
-In this project i have written a python program of Hangman Game.
+In this project i have written a python program of Hangman Game. Hangman is a word game in which the computer will randomly select a word from the dictionary and the player has to guess it correctly in a given number of turns. The word to be guessed is represented by the row of stars. If the guessed letter is present in a word, the script will automatically be placed in the correct places.
 
 ###### Image to PDF Converter :
 In this project i have written a python program to Convert image file into PDF file.
