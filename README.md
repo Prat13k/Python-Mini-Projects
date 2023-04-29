@@ -1,6 +1,6 @@
 # Python Projects
 
-This repository consists of several mini projects coded in python language.
+This repository consists of several mini projects coded in python language which were made for fun purpose.
 
 # Description
 
