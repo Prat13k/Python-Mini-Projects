@@ -1,6 +1,4 @@
-# Python Projects
-
-This repository consists of several mini projects coded in python language which were made for fun purpose.
+This repository consists of several mini projects coded in python language.
 
 # Description
 
@@ -14,10 +12,10 @@ In this project i have written a python program to determine matching birthdays.
 In this project i have written a python program to create a bouncing DVD animation. In this code python tkinter is used for the animation purpose.
 
 ###### Download Youtube Videos :
-In this project i have written a python program to download youtube videos through youtube link using python.
+In this project i have written a python program to download videos from youtube through youtube link using python.
 
 ###### Downloading Instagram Posts :
-In this project i have written a python program to download instagram posts from desired instagram account.
+In this project i have written a python program to download instagram posts from any public instagram account.
 
 ###### Emoji Faces :
 In this project i have written a python program to create emojis using python.
