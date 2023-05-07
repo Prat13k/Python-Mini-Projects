@@ -1,4 +1,4 @@
-This repository consists of several mini projects coded in python language.
+This repository consists of several mini python projects.
 
 # Description
 
