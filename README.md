@@ -1,5 +1,3 @@
-This repository consists of several mini python projects.
-
 # Description
 
 ###### Bagels: 
